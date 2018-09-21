@@ -168,7 +168,9 @@
   margin-top: 100px;
   background-color: #f9f9fb; }
   .wrap-problem .wrap-content {
-    padding-top: 100px; }
+    padding-top: 100px; 
+    margin-left: 15%;
+    margin-right: 15%;}
     .wrap-problem .wrap-content p {
       margin-top: 24px; }
   .wrap-problem .wrap-icon-problem {
@@ -176,7 +178,9 @@
     flex-direction: column; }
     .wrap-problem .wrap-icon-problem .icon-row-arrange {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between; 
+      margin-left: 15%;
+      margin-right: 15%}
       .wrap-problem .wrap-icon-problem .icon-row-arrange .icon-description {
         margin-top: 80px;
         display: flex;
@@ -265,7 +269,7 @@
       font-size: 18px;
       text-align: center; }
   .feature-content .feature-icon {
-    margin-top: 80px;
+    margin-top: 120px;
     display: flex; }
     .feature-content .feature-icon .wrap-feature-description-mobile {
       display: none; }
@@ -290,7 +294,9 @@
       display: flex;
       flex: 1;
       color: #ffffff;
-      flex-direction: column; }
+      flex-direction: column; 
+      padding-left: 2%;
+      padding-right: 3%;}
       .feature-content .feature-icon .icon-detail .feature-description {
         display: flex;
         flex: 1;
@@ -305,7 +311,23 @@
           width: 90%;
           list-style-type: none;
           border-bottom: 1px solid #ffffff;
-          margin-top: 20px; }
+          margin-top: 20px; 
+        }
+
+        .feature-content .feature-icon .icon-detail .feature-description li::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: calc(100% + 1px);
+          bottom: 0;
+          width: 12px;
+          height: 12px;
+          transform: translateY(-50%);
+          border-radius: 50%;
+          background:white;
+          cursor: pointer;
+        }
+
       @media (max-width: 575.98px) {
         .feature-content .feature-icon .icon-detail {
           display: none; } }
@@ -352,7 +374,7 @@
   .company-roadmap .timeline-dialog {
     margin-left: -50px;
     width: 350px;
-    height: 130px;
+    height: 160px;
     background-color: #171d2e;
     display: none;
     color: #ffffff; }
