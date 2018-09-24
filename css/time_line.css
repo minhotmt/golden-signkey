@@ -11,6 +11,8 @@
   width: 100vw;
   padding: 250px 0;
   transition: all 1s;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .timeline ol li {
