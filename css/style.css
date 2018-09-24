@@ -286,7 +286,9 @@
       .feature-content .feature-icon .wrap-feature-description-mobile li {
         list-style-type: none;
         border-bottom: 1px solid #ffffff;
-        margin-top: 20px; }
+        margin-top: 20px;
+       }
+
     @media (max-width: 575.98px) {
       .feature-content .feature-icon {
         flex-direction: column; } }
@@ -314,24 +316,9 @@
           margin-top: 20px; 
         }
 
-        .feature-content .feature-icon .icon-detail .feature-description li::after {
-          content: '';
-          position: absolute;
-          top: 50%;
-          left: calc(100% + 1px);
-          bottom: 0;
-          width: 12px;
-          height: 12px;
-          transform: translateY(-50%);
-          border-radius: 50%;
-          background:white;
-          cursor: pointer;
-        }
-
       @media (max-width: 575.98px) {
         .feature-content .feature-icon .icon-detail {
           display: none; } }
-
 .container-table {
   margin-top: 100px;
   padding-right: 0;
@@ -619,4 +606,25 @@
   font-size: 30px;
   color: #242c3e; }
 
+  .dotted-line {
+    fill: none;
+    stroke: white;
+    stroke-width: 2;
+    marker: url(#circle-marker);
+  }
+  #circle-marker circle {
+    fill: white;
+    stroke: white;
+  }
+
+  /* .dotted-line .wrap-feature-description-mobile {
+    fill: none;
+    stroke: red;
+    stroke-width: 2;
+    marker: url(#circle-marker);
+  }
+  #circle-marker circle .wrap-feature-description-mobile {
+    fill: red;
+    stroke: red;
+  } */
 /*# sourceMappingURL=style.css.map */
