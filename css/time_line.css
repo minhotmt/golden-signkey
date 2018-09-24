@@ -4,15 +4,16 @@
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
+  background-color: #f9f9f9;
 }
 
 .timeline ol {
   font-size: 0;
-  width: 100vw;
+  /* width: 100vw; */
   padding: 250px 0;
   transition: all 1s;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 .timeline ol li {

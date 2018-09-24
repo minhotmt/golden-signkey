@@ -476,6 +476,7 @@ $white: #ffffff;
     flex-direction: column;
   }
   .timeline-dialog {
+    z-index: 1;
     margin-left: -50px;
     width: 350px;
     height: 150px;
